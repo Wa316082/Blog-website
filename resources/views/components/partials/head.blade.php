@@ -23,5 +23,5 @@
 ])
 <title>@yield('title','Blog')</title>
 
-<livewire:Styles />
+@livewireStyles
 @bukStyles(true)

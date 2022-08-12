@@ -46,11 +46,13 @@
         </div>
 
         @stack('modals')
-        {{-- livewire --}}
-        @livewireScripts
+        
 
         {{-- Blade UI kit --}}
 
         @bukScripts(true)
+
+        {{-- livewire --}}
+        @livewireScripts
     </body>
 </html>

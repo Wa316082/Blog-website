@@ -24,7 +24,8 @@
             <x-partials.footer/>
         </footer>
 
-        <livewire:scripts/>
         @bukScripts(true)
+        @livewireScripts
+        
     </body>
 </html>

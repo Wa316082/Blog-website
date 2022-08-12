@@ -68,7 +68,7 @@
                         {{-- Schedule --}}
                         <div>
                             <x-jet-label for="published_at" value="{{ __('Schedule Date') }}" />
-                            <x-pikaday name="published_at" format="YYYY-MM-DD" />
+                            <x-pikaday name="published_at" format="YYYY-MM-DD" id="SomeID" />
                             <x-jet-input-error for="piblished_at" class="mt-2"/>
                         </div>
 
