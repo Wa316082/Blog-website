@@ -7,8 +7,8 @@ use Illuminate\Support\Facades\File;
 
 class Delete extends Component
 {
-    public  $post;
-    public  $confirmingPostDeletion = false;
+    public string $post;
+    public bool $confirmingPostDeletion = false;
 
     public function confirmPostDeletion()
     {

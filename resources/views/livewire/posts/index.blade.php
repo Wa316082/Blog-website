@@ -145,7 +145,7 @@
 
                             {{-- Delete Buttons  --}}
 
-                            <livewire:buttons.delete :post ="$post" :key = "$post->id" />
+                            <livewire:Buttons.delete :post ="$post" :key = "$post->id" />
                                 
 
                         </div>
